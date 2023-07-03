@@ -92,8 +92,3 @@ time.sleep(5)
 button2 = driver.find_element(By.CSS_SELECTOR,"div[data-testid='tweetButtonInline']")
 button2.click()
 
-import datetime
-
-file = open(r"C:\Users\Reese\OneDrive\Desktop\Twitter Bot\rizwan_ye_bot_run.txt", 'a')
-file.write(f'{datetime.datetime.now()} - The script ran \n')
-driver.quit()
